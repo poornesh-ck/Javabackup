@@ -1,0 +1,23 @@
+class Employee{
+	int eid;
+	String ename;
+	long esalary;
+	public void seteid(int id){
+		eid=id;
+	}
+	public int geteid(){
+		return eid;
+	}
+	public void setename(String name){
+		ename=name;
+	}
+	public String getename(){
+		return ename;
+	}
+	public void setesalary(long salary){
+		esalary=salary;
+	}
+	public long getesalary(){
+		return esalary;
+	}
+}

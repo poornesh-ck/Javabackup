@@ -1,0 +1,24 @@
+import java.io.*;
+class RW
+{
+
+ 
+
+    public static void main(String[] args)
+    {
+
+        try(FileWriter fs = new FileWriter("file.txt");
+        BufferedWriter bs = new BufferedWriter(fs);)
+        {
+            String s = "hii";
+            //byte[] arr = s.getBytes();
+            bs.write(arr);
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+
+has context menu
